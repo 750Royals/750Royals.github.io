@@ -1,0 +1,303 @@
+*
+{
+    font-family: 'Abel', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #24252A;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+    background-color: #2b2c30;
+}
+
+a
+{
+    background-color: #2b2c30;
+}
+
+ul
+{
+    background-color: #2b2c30;
+}
+
+li
+{
+    background-color: #2b2c30;
+}
+
+.nav-links
+{
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-links li
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li:nth-child(1)
+{
+    padding: 0px 20px 0px 0px;
+}
+
+.nav-links li a
+{
+    transition: all 0.3s ease 0s;
+}
+
+button
+{
+    padding: 9px 25px;
+    background-color: rgb(163, 9, 9);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color:white;
+    margin-right:30px;
+    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.15);   
+}
+
+button:hover
+{
+    background-color: rgb(111, 18, 18);
+    color: white;
+    font-weight:bold;
+    transition:background-color 0.3s;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover
+{
+    color: rgb(163, 9, 9);
+    transition: all 0.3s ease 0s;
+}
+
+.awardHeader
+{
+    color: white;
+    margin-top: 40px;
+    font-size: 80px;
+}
+
+.award
+{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .02);
+    border: 2px solid rgba(255, 255, 255, .1);
+    border-radius: 10px;
+    position: relative;
+    height: 500px;
+    width: 400px;
+    margin-top: 15px;
+    margin-right: 15px;
+    box-shadow: 4px 4px 8px rgb(25, 25, 25);
+    background: radial-gradient(
+        800px circle at 150px 150px, rgba(255, 255, 255, .15), transparent 40%
+    );
+}
+
+.award:hover
+{
+    background-color: rgba(255, 255, 255, .75);
+    transition:background-color 0.75s;
+}
+
+.award:hover .awardTitle
+{
+    color: rgba(75, 75, 75, 1);
+}
+
+.award:hover .season
+{
+    color: rgba(75, 75, 75, 1);
+}
+
+.award:hover .awardDesc
+{
+    color: rgba(75, 75, 75, 1);
+}
+
+.awardIMG
+{
+    height: 250px;
+    width: 350px;
+    border: 2px solid rgba(255, 255, 255, .1);
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.awardTitle
+{
+    color: white;
+    font-size: 36px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 25px;
+    background-color: transparent;
+    text-align: center;
+    transition:color 0.75s;
+}
+
+.season
+{
+    color: white;
+    font-size: 32px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 25px;
+    background-color: transparent;
+    text-align: center;
+    transition:color 0.75s;
+}
+
+.awardDesc
+{
+    color: white;
+    font-size: 24px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+    background-color: transparent;
+    text-align: center;
+    transition:color 0.75s;
+}
+
+.logo
+{
+    cursor: pointer;
+}
+
+.text-flex
+{
+    display: flex;
+    justify-content: center;
+}
+#tabletext{
+    color:white;
+    text-align: center;
+
+}
+#text{
+    text-align:center;
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+    color:white;
+}
+
+.caption
+{
+    width: 900px;
+    overflow-wrap: break-word;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 100px;
+    padding: 240px 0px;
+    color: white;
+}
+.vex-text
+{
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: -100px;
+    margin-left: 20px;
+}
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    background-color: #24252A;
+}
+
+.foot
+{
+    color: white;
+    justify-content: center;
+    margin-left: 780px;
+}
+
+.footer-box{
+    position:absolute;
+    background:black;
+    margin-top:30px;
+    width:70%;
+    height: 2px;
+    z-index:-1;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.foot-1
+{
+    color: white;
+    position:absolute;
+    text-align:center;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:20px;
+    left: 0;
+    right: 0;
+    font-size:15px;
+    background-color:transparent;
+    z-index:0;
+}
+
+.foot-2
+{
+    
+    color: white;
+    position:absolute;
+    text-align:right;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:20px;
+    left: 0;
+    right: 15.3%;
+    font-size:15px;
+    background-color:transparent;
+    z-index:0;
+}
+
+.foot-3
+{
+    padding-bottom:20px;
+    color: white;
+    position:absolute;
+    text-align:left;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    right:0;
+    left: 15.3%;
+    font-size:15px;
+    background-color:transparent;
+    z-index:0;
+}
+
+img{
+    background-color: transparent;
+}
+
+.bedder
+{
+    font-size: 20px;
+}
